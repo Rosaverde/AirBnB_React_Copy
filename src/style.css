@@ -1,0 +1,99 @@
+body
+{
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+nav
+{
+    height: 70px;
+    display: flex;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gray
+{
+    color: #918E9B;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.nav-logo
+{
+    padding: 20px 30px;
+    max-width: 100px;
+}
+
+.hero-container
+{
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-photo
+{
+    max-width:396px;
+    align-self: centre;
+}
+
+.hero-container > h1
+{
+    padding: 0 36px;
+    margin: 32px 0 0 0 ;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.hero-container > p
+{
+    padding: 0 36px;
+    margin: 16px 0;
+    width: 320px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+/* ADD */
+.card--price {
+    margin-top: auto;
+}
