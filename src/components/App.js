@@ -7,14 +7,9 @@ import data from "../data.js"
 export default function App()
 {
     const dataElements = data.map(data => {
-        return <Card 
+        return <Card
             key={data.id}
-            img={data.coverImg}
-            rating={data.stats.rating}
-            revievCount={data.stats.revievCount}
-            location={data.location}
-            title={data.title}
-            price={data.price}
+            data={data}
         />
     })
     return(

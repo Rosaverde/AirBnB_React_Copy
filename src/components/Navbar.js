@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/airbnb 1.png";
+import logo from "../images/airbnb 1.png"
 
 export default function Navbar()
 {
@@ -8,4 +8,4 @@ export default function Navbar()
             <img className="nav-logo" src={logo} alt="logo" />
         </nav>
     )
-};
+}
