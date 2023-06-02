@@ -1,55 +1,47 @@
-body
-{
+body {
     margin: 0;
     font-family: 'Poppins';
     font-style: normal;
 }
 
-nav
-{
+nav {
     height: 70px;
     display: flex;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
 }
 
-.gray
-{
+.gray {
     color: #918E9B;
 }
 
-.bold
-{
+.bold {
     font-weight: bold;
 }
 
-.nav-logo
-{
+.nav-logo {
     padding: 20px 30px;
     max-width: 100px;
 }
 
-.hero-container
-{
+.hero-container {
     padding: 26px;
     display: flex;
     flex-direction: column;
 }
-.hero-photo
-{
-    max-width:396px;
+
+.hero-photo {
+    max-width: 396px;
     align-self: centre;
 }
 
-.hero-container > h1
-{
+.hero-container>h1 {
     padding: 0 36px;
-    margin: 32px 0 0 0 ;
+    margin: 32px 0 0 0;
     font-weight: 600;
     font-size: 36px;
 }
 
-.hero-container > p
-{
+.hero-container>p {
     padding: 0 36px;
     margin: 16px 0;
     width: 320px;
@@ -68,9 +60,9 @@ nav
     position: relative;
     width: 175px;
     font-size: 12px;
-    flex: 0 0 auto;       
-    display: flex;         
-    flex-direction: column; 
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-image {
@@ -100,8 +92,7 @@ nav
     margin-top: auto;
 }
 
-.badge
-{
+.badge {
     position: absolute;
     top: 6px;
     left: 6px;
